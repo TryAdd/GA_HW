@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://kit.fontawesome.com/b6fb6a5ff2.js" crossorigin="anonymous"></script>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/app.js" charset="utf-8"></script>
+  </head>
+  <body>
+      <header>
+        <h1>Let's Play <i class="fa-regular fa-hand-back-fist"></i>,
+           <i class="fa-regular fa-hand"></i>,
+          <i class="fa-regular fa-hand-scissors"></i> Game</h1>
+      </header>
+
+      <div class="score">
+        <div id="user-lable" class="badge">user</div>
+        <div id="comp-lable" class="badge">comp</div>
+        <span id="user-score">0</span> : <span id="comp-score">0</span>
+      </div>
+
+      
+      <div class="choices">
+        <div class="choice" id="rock">
+          <button class="btn">
+          <img src="pic/rock.png" alt="rock">
+        </button>
+        </div>
+        <div class="choice" id="paper">
+          <button class="btn">
+          <img src="pic/paper.png" alt="paper">
+          </button>
+        </div>
+        <div class="choice" id="scissors">
+          <button class="btn">
+          <img src="pic/scissor.png" alt="scissor">
+          </button>
+        </div>
+      </div>
+      <div id="result">
+        <h1></h1>
+      </div>
+  </body>
+</html>

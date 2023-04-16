@@ -1,0 +1,29 @@
+*{
+    background-color: black;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.image{
+    top: 150px;
+    left: 150px;
+    position: absolute;
+} */
+/* 
+label, .width, .height , #randomize{
+    position: absolute;
+    left: 300px;
+    
+} */
+
+.width , .height{
+    margin: 2px;
+    padding: 2px;
+    background-color: aliceblue;
+    color: black;
+    text-decoration: non;
+}
