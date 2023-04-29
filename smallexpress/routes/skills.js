@@ -10,8 +10,7 @@ var router = express.Router();
 const SkillControl = require('../controllers/skillC')
 
 router.get('/', SkillControl.index)
-router.get('/add', SkillControl.add)
-router.post('/', SkillControl.append)
+router.get('/add', SkillControl.index)
 router.get('/:id', SkillControl.show)
 
 

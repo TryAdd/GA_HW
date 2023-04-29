@@ -14,21 +14,7 @@ function show(req, res){
     })
 }
 
-function add(req, res){
-    res.render('skillV/add',{
-        
-    })
-}
-
-function append(req, res){
-    const skillname = req.body.skillN
-    tryadd.addNew(skillname)
-    index(req, res)
-}
-
 module.exports = {
     index,
-    show,
-    add,
-    append
+    show
 }

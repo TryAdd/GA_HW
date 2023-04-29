@@ -6,7 +6,7 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-router.get('/add',function(req, res){
+router.get('/addS',function(req, res){
   res.render('add-skill',{title: 'Add skill'})
 })
 

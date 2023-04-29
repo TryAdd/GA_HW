@@ -7,9 +7,7 @@ function init() {
     const compC = document.querySelector('#comp-lable')
     const resultC = document.querySelector('#result')
     const btnC = document.querySelectorAll('.btn')
-    const playerPoint = document.querySelector('#user-score')
-    const compPoint = document.querySelector('#comp-score')
-
+    
     let player
     let comput
     let results
@@ -39,7 +37,7 @@ function init() {
                 comput = 'paper';
                 break;
             case 3:
-                comput ='scissors';
+                comput ='scissor';
                 break;
                 
         }
@@ -48,20 +46,14 @@ function init() {
     function checkWinner(){
         if(player == comput){
             return "Draw!"
-        }else if(player == 'rock'){
-            return (comput == 'scissors')? 'You win!' : 'You Lose!:('
-        }else if(player == 'paper'){
-            return (comput == 'rock')? 'You win!' : 'You Lose!:('
-        }else if(player == 'scissors'){
-            return (comput == 'paper')? 'You win!' : 'You Lose!:('
+        }else if(comput == 'rock'){
+            return (player == 'paper')? 'You win!' : 'You Lose!:('
+        }else if(comput == 'paper'){
+            return (player == 'scissor')? 'You win!' : 'You Lose!:('
+        }else if(comput == 'scissor'){
+            return (player == 'scissor')? 'You win!' : 'You Lose!:('
         }
     }
-
-    // function scoreIncrease{
-    //     if(player=lis"You win!"){
-    //         ++playerPoint
-    //     }
-    // }
 
 
 }

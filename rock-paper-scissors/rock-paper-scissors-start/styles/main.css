@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Itim', cursive;
     box-sizing: border-box;
 }
 
@@ -42,29 +42,22 @@ header i{
     padding: 10px 10px;
     border-radius: 100%;
     text-align: center;
-    margin: 0 -40px;
-    position: relative;
 }
 
 #user-lable{
     position: absolute;
-    top: 10px;
-    left: -50px;
+    top: 15px;
+    left: -25px;
     background: #bee;
-    width: 90px;
-    font-weight: bold;
-    color: black;
 }
 
 
 #comp-lable{
     position: absolute;
-    top: 10px;
-    right: -50px;
+    top: 15px;
+    right: -25px;
     background: red;
     color: black;
-    width: 90px;
-    font-weight: bold;
 
 }
 
@@ -116,16 +109,20 @@ header i{
     justify-content: center;
 }
 
+/* .end #user-choice{
+    border: 1px solid #2eb;
+    width: 250px;
+    height: 250px;
+}
+.end #bot-choice{
+    border: 1px solid #2eb;
+    width: 250px;
+    height: 250px;
+} */
+
 .choices button{
     border-radius: 100%;
     cursor: pointer;
-}
-
-#result{
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    font-size: 100px;
 }
 
 
